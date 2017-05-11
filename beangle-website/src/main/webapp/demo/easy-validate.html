@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery UI Tooltip - Default demo</title>
+		<script type="text/javascript" src="../static/scripts/comm/jquery-latest.js"></script>
+		<link rel="stylesheet" href="../static/scripts/easy-validate/style/easyValidate.default.css" media="screen">
+		<link rel="stylesheet" href="../static/scripts/easy-validate/style/demo.css" media="screen">
+		<script src="../static/scripts/easy-validate/jquery.easyValidate.min.js"></script>
+		<style>
+		</style>
+		<script>
+			$(function(){
+				$('#contact_form').easyValidate({
+				});
+			});
+		</script>
+	</head>
+	<body>
+<div id="container">
+    	<header></header>
+        <section>
+        	<div id="contact_form">
+                <form method="post" name="form_contact_form" id="" action="ajax.php">
+                	<fieldset>
+                    	<legend></legend>
+                <div class="field">
+                    <label for="">Name</label>
+                    <input type="text" name="txt_name" id="" value="" class="required" />
+                </div>
+                <div class="field">
+                    <label for="">Email</label>
+                    <input type="text" name="txt_email" id="" value="" class="required email" />
+                </div>
+                <div class="field">
+                    <label for="">Message</label>
+                    <textarea name="txt_message" id="" class=""></textarea>
+                </div>
+                <div class="field form_footer">
+                    <input type="submit" name="btn_contact_form" id="" value="Send Message" class="button orange" />
+                </div>
+                	</fieldset>
+                </form>
+            </div>
+        </section>
+        <footer></footer>
+    </div>
+
+	</body>
+</html>

@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.clearDiv{clear: both;}
+
+.wjtm_no{width: 25px; float:left;}
+.wjtm_title{float:left;}
+.wjtm_ol li{list-style: upper-latin}
+.wjtm_editor{background-color: #FFF9DD}
+.wjtm_editor_toolbar{text-align: right;}
+.dcwjHideIframe iframe{border: 0;}
+.tmEditorDiv{border: 1px solid #fff; background-color: #fff; padding:3px;}
+.tmEditorDiv .btnBar{float:right; display:none;}
+.tmEditorDivHover{border: 1px solid #E6BD1A}

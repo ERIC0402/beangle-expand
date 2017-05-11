@@ -1,0 +1,15 @@
+[#ftl]
+[@b.head/]
+[#import "/template/list/utils.ftl" as lu/]
+[@b.toolbar title="课程" entityId=course.id!0]bar.addBack();[/@]
+[#include "nav.ftl"/]
+[@b.form action="!saveCourseField"  title="${(courseColumn.name)!}" theme="list"]
+	[@lu.ckeditor id="standard" name="course.courseInfo.${(courseColumn.courseField)!}" value="${(courseContent?string)!}"/]
+	[@b.formfoot]
+		[@b.reset/]&nbsp;&nbsp;
+		[@b.submit value="action.submit" /]
+		[@b.redirectParams/]
+		<input type="hidden" name="course.id" value="${course.id!}" />
+	[/@]
+[/@]
+[@b.foot/]

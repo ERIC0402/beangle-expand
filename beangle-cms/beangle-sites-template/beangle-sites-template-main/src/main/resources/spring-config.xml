@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="dataSource"
+		class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName">
+            <value>java:comp/env/jdbc/dataSource</value>
+        </property>
+    </bean>
+    <bean id="hibernateConfig">
+        <property name="properties">
+            <props merge="true">
+				<!--
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.DB2Dialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
+				-->
+                <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+                <prop key="javax.persistence.validation.mode">none</prop>
+                <prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto"></prop>
+            </props>
+        </property>
+    </bean>
+    
+<!--     <bean id="org.beangle.website.tp.action.DictTypeAction">
+        <property name="dictTypeService" ref="service1"/>
+    </bean>-->
+    	<bean id="usernamePreauthFilter">
+		<property name="usernameSource">
+<!-- 			<bean class="org.beangle.website.system.security.autoLogin.AutoLoginUsernameSource">
+				<property name="username" value="admin"/>
+			</bean> -->
+			<bean class="org.beangle.website.auth.SingleAuthUsernameSource"/>
+		</property>
+	</bean>
+</beans>

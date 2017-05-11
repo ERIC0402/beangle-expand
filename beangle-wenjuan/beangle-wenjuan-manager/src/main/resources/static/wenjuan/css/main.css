@@ -1,0 +1,7 @@
+@charset "utf-8";
+.wjpreview{padding: 10px; margin: 5px;}
+.wjpreview li{padding: 4px 0px 7px!important;background-image:none!important;}
+.wjpreview .tianKong{width:80px; color:red;}
+.wjpreview .tmlx{padding: 0px; margin: 5px;}
+.wjpreview .zqda, .wjpreview .tmlxcode{display: none;}
+.wjpreview .bqddiv{}

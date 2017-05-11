@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <menu id="0" code="99" name="问卷管理" title="问卷管理" remark="" profileId="2" />
+  <menu id="2446" code="99.1" name="题库管理" title="题库管理" remark="题库管理是用来管理不同类型的题目，每个题库都由若干道题目组成，组卷时会选取不同题库的题目。" profileId="2" parentId="2408"/>
+  <menu id="2505" code="99.1.1" name="题库管理" title="题库管理" entry="/wenjuan/ti-ku" remark="题库管理分模拟考试、入学考试、结业考试和评教四种分类，用来区分不同的试题，每种分类可以有多个题库。" profileId="2" parentId="2446">
+    <resource id="3330" name="/wenjuan/ti-ku" title="题库" scope="2">
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2512" code="99.1.2" name="选项模板" title="选项模板" entry="/wenjuan/xxmb" remark="选项模版针对相同选项的题目而言，在新建题目时可以直接套用选项模版。" profileId="2" parentId="2446">
+    <resource id="2914" name="/wenjuan/xxmb" title="选项模板" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2536" code="99.1.3" name="题目管理" title="题目管理" entry="/wenjuan/ti-mu" remark="题目管理有单选、多选、填空、判断、排序、网格、简答七种题目类型，隶属题库之下，每道题目都有所属题库。" profileId="2" parentId="2446">
+    <resource id="3361" name="/wenjuan/ti-mu" title="题目管理" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2509" code="99.2" name="组卷管理" title="组卷管理" remark="组卷管理，即从不同的题库中选取一些题目组成试卷，分模拟试卷，入学试卷，结业试卷和评教试卷。" profileId="2" parentId="2408"/>
+  <menu id="2510" code="99.2.1" name="试卷管理" title="试卷管理" entry="/wenjuan/sjgl" remark="试卷管理用来维护多套问卷，分固定问卷和随机问卷两种，一般针对模拟考试、入学考试或者结业考试而组卷。" profileId="2" parentId="2509">
+    <resource id="3332" name="/wenjuan/sjgl" title="试卷管理" scope="2"/>
+  </menu>
+  <menu id="2511" code="99.2.2" name="评教管理" title="评教管理" entry="/wenjuan/pjgl" remark="评教管理一般针对评教而组卷，题目来自于各个题库，大多为网格题型。" profileId="2" parentId="2509">
+    <resource id="3333" name="/wenjuan/pjgl" title="评教管理" scope="2"/>
+  </menu>
+  <menu id="0" code="99.3" name="问卷结果" title="问卷结果" remark="" profileId="2" />
+  <menu id="2761" code="99.3.1" name="成绩管理" title="成绩管理" entry="/base/zxksgl" profileId="2" parentId="2408">
+    <resource id="3778" name="/base/zxksgl" title="成绩管理" scope="2">
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2728" code="99.3.2" name="评教结果" title="评教结果" entry="/jiaoyuan/wspjjg" profileId="2" parentId="2408">
+    <resource id="3713" name="/jiaoyuan/wspjjg" title="评教结果" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+</root>

@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+a{ color: #215699;}
+body{ background:#e7eef7}
+/*layout------------------------------------------------------------------------------*/
+.header{ background:#ba2a2a;}
+
+.nav{background:url(../style_comm/nav_bg.png) repeat-x #215699; _background: none #215699;}
+
+.main{}
+.main_content{ background:#fff}
+.banner{}
+.banner img{}
+
+.content{ background:#fff}
+.content_bg_1{ border-left:1px solid #dadada;border-right:1px solid #dadada;border-top:1px solid #dadada;}
+.content_2{ background:#f1eee5}
+
+.c_Left{ background:url(../style_comm/sider_bg.gif) right repeat-y}
+
+.c_Left_Bottom_Left{ background:url(../style_comm/left_bg.png) repeat-x 0px 33px; _background:none #e6e3da}
+.c_Middle{ background:url(../style_comm/main_bg.jpg) repeat-x bottom; border-left:1px solid #dadada;border-right:1px solid #dadada;}
+
+.c_Right_2{ background:#fff; border-left:1px #dedede solid}
+.c_Middle_2{ background:#fff}
+
+.footer{ text-align:center; color:#000;}
+.footer_content{}
+.footer a{ color:#000}
+/*search------------------------------------------------------------------------------*/
+.tool_bar{ color:#666666}
+/*search------------------------------------------------------------------------------*/
+
+/*nav------------------------------------------------------------------------------*/
+/* LEVEL ONE*/
+ul.dropdown                         {}
+ul.dropdown li                      {}
+ul.dropdown a:hover		            { color: #fff;  }
+ul.dropdown li a                    { color: #fff;  }
+ul.dropdown li:hover                {}
+
+ul.dropdown .first_li{background:url(../style_comm/nav_line.png) 100% 50% no-repeat;_background:none; }
+ul.dropdown .current_hit{background:url(../style_comm/nav_bg.png) repeat-x #5a9fda; _background:none #5a9fda}
+ul.dropdown .hover_a{background:url(../style_comm/nav_bg.png) repeat-x #5a9fda; _background:none #5a9fda; color:#fff}
+/* LEVEL TWO*/
+ul.dropdown ul 						{ background:#9ecef7; border:1px #22579b solid }
+ul.dropdown ul li 					{ color: #fff; border-bottom: 1px #22579b solid;}
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a:hover{ background:#5a9fda;} 
+
+/*Nav_2------------------------------------------------------------------------------*/
+.Nav2{}
+.Nav2 a{ color: #333;}
+.Nav2 .div_1{ background:#cee4fe;}
+.Nav2 .div_2{ background:#e1e1e1;}
+.Nav2 .div_3{ background:#f6f5f5;}
+.Nav2 .li_hover{ background:url(../style_comm/sub_nav_bg.png) repeat-x #ffcc99; background:none #ffcc99;}
+.Nav2 span.span_1{ background:#fff; color:#2144ac; border:1px #2144ac solid}
+
+/*other_comm------------------------------------------------------------------------------*/
+
+.weather_bar{ color:#fff; }
+
+/*.position_bar .p_bg_2{ background:#b8d8fc; border:1px #7cb2f2 solid;  }
+.position_bar .p_bg{ background:url(../style_comm/sub_top_bg.png) repeat-x bottom;_background: none;  color:#133e76 }*/
+
+.turn_page{}
+.turn_page a{ color:#000}
+
+
+.line_1{ background:#133e76;}
+.line_2{ color:#820000;}
+.date_bar{ color:#820000}
+
+.toji{ background:url(../style_comm/ico_1.gif) no-repeat 30px 50%; }
+.toji font{ color:#26589a}
+
+
+.ip_1{ background:#e5e5e5;}
+.ip_2{  background:url(../style_comm/turn_page_bg.png) repeat-x bottom #cee4ff;_background:none #cee4ff;color:#000;}
+.ip_3{ width:20px; border:1px #ccc solid }
+
+.ico_1{ background:url(../style_comm/search_btn.gif) 50% 50% no-repeat #2f2f2f;  border:1px #838383 solid; color:#fff;}
+
+.f1{ color:#215699}
+
+.rsaquo{color:#c51009}
+
+
+/*.border_right_1{ border-left:1px #c2d0eb solid}*/
+/*title------------------------------------------------------------------------------*/
+.title_1{ background:#3469ac}
+.title_1  span{ color:#fff;}
+.title_1  span .span_1{ color:#fff; }
+.title_1  span .span_2{ color:#fff; }
+
+.title_1  .div_1{border-bottom:3px #185ae5 solid;}
+.title_1 .div_2{ background:#3469ac}
+.title_1  a{color:#810000;}
+
+.title_2 { background:url(../style_comm/title_bg.png) repeat-x #d8e4f3;_background:none #d8e4f3;color:#26589a}
+
+.title_3 { background:url(../style_comm/title_bg.png) repeat-x #cce2ff;_background:none #cce2ff;color:#26589a}
+
+.title_4{  background:url(../style_comm/title_bg_2.png) repeat-x #386db3;_background:none #386db3;color:#fff}
+
+.title_5{ background:#cee4ff}
+.title_5  span{ color:#000;}
+.title_5  span .span_1{ color:#fea700; }
+.title_5  span .span_2{ color:#fff; }
+
+/*list_box------------------------------------------------------------------------------*/
+.list_box_1 ul li{}
+.list_box_1 ul li a{ color:#393a3a;}
+
+.list_box_2{ background:#fff}
+.list_box_2 img{ border:1px #000000 solid;}
+.list_box_2 .text_box_1 h4{ color:#003399}
+.list_box_2 .text_box_1 h4 a{ color:#003399}
+.list_box_2 .text_box_1 a{ color:#666666;}
+.list_box_2 ul li span{ color:#215699}
+.list_box_2 ul li font{ color:#c3150c}
+.list_box_2 ul li { border-bottom:1px #ccc  dotted}
+
+.list_box_4_2 img{border:1px #d7d9d7 solid}
+.list_box_4_2 h3{ color:#125fbb;}
+.list_box_4_2 li table tr td{ background:url(../style_comm/list_bg.png) repeat-x top #eef5fe; _background:none; border-top:1px #bfbfbf dotted}
+
+
+.list_box_5 li{border-bottom:1px #b4b5b5 dotted; }
+.list_box_5 li span{color:#393a3a}
+.list_box_5 li a{color:#393a3a}
+.list_box_5 li a font{ color:#c3150c}
+
+.list_box_6 img{border:3px #dadada solid}
+.list_box_6 ul li h4{ color:#820707}
+.list_box_6 ul li{ color:#666666; border-bottom:1px #b1b1b1 dotted}
+.list_box_6 .rsaquo{ color:#c3150c}
+
+.list_box_8  img{ border:1px #d8d4c7 solid; padding:2px;}
+.list_box_8  a{ color:#393a3a}
+.list_box_8 .line_2{ border-bottom:1px #d6cfb7 solid;}
+
+.list_box_7 ul li{ color:#666666;}
+.list_box_7 ul li table td{ border:1px #cbcbcb solid}
+
+/*list_bg------------------------------------------------------------------------------*/
+.list_bg_1{ background:url(../style_comm/bg_1.png) no-repeat top #e1edfe;_background: none #e1edfe;}
+.list_bg_2{ background:#e1edfe;}
+
+/*s4------------------------------------------------------------------------------*/
+dl.s4 .div_1 dt{border-top:1px solid #d1e4f6;border-right:1px solid #d1e4f6;border-left:1px solid #d1e4f6; color:#26589a}
+dl.s4 .div_1{ background:url(../style_comm/tab_bg.png) repeat-x #f0f3fa; _background:none #f0f3fa;border-top:3px solid #d1e4f6;border-right:1px solid #d1e4f6;border-left:1px solid #d1e4f6;}
+
+dl.s4 dt.active {
+border-bottom:1px solid #fff;color:#cc0000; background:#fff}
+
+
+dl.s4 dd {border-top:1px solid #cddbe5;}

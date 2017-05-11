@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+	<resources>
+		<resource name="/cms/column" title="栏目管理" remark="" scope="private"  categories="manager"/>
+		<resource name="/cms/column-manager" title="栏目选择" remark="" scope="private"  categories="manager"/>
+	</resources>
+</settings>

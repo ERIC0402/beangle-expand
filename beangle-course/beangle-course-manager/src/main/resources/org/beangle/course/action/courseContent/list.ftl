@@ -1,0 +1,33 @@
+[#ftl]
+[@b.head/]
+[@b.toolbar title="课程" entityId=course.id!0]bar.addBack();[/@]
+[#include "../course/nav.ftl"/]
+[@b.grid  items=courseContents var="courseContent"]
+	[@b.gridbar]
+		bar.addItem("${b.text("action.new")}",action.add());
+		bar.addItem("${b.text("action.modify")}",action.edit());
+		bar.addItem("${b.text("action.delete")}",action.remove());
+	[/@]
+	[@b.row]
+		[@b.boxcol/]
+		[@b.col width="20%" property="courseResource.zybt" title="资源名称" /]
+		[@b.col width="10%" property="courseResource.zyfl.name" title="内容分类" /]
+		[@b.col width="10%" property="courseResource.zylx.name" title="资源类型" /]
+		[@b.col width="10%" property="courseSection.name" title="所属章节" /]
+		[@b.col width="35%" property="courseSection.name" title="资源文件"]
+			[#list courseContent.courseResource.resourceFiles as resourceFile]
+				<a href="#">${(resourceFile.fileName)!}   ${(courseContent.courseResource.zylx.name)!}</a>
+				[#if resourceFile_has_next]<br>[/#if]
+			[/#list]
+		[/@]
+		[@b.col width="6%" title="推荐"]
+			[#if courseContent.sftj??&&!courseContent.sftj][@b.a href="!recommendCourseSection?courseId=${(course.id)!}&courseContentId=${(courseContent.id)!}&isRecommend=true"]推荐[/@][/#if]
+			[#if courseContent.sftj??&&courseContent.sftj][@b.a href="!recommendCourseSection?courseId=${(course.id)!}&courseContentId=${(courseContent.id)!}&isRecommend=false"]取消[/@][/#if]
+			
+		[/@]
+		[@b.col width="6%" title="编辑"]
+			[@b.a href="!edit?courseId=${(course.id)!}&courseContentId=${(courseContent.id)!}"]编辑[/@]
+		[/@]
+	[/@]
+[/@]
+[@b.foot/]

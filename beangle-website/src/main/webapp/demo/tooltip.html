@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery UI Tooltip - Default demo</title>
+		<script type="text/javascript" src="../static/scripts/comm/jquery-latest.js"></script>
+		<script type="text/javascript" src="../static/scripts/jquery-ui/jquery-ui-1.9.0.custom.min.js"></script>
+		<link id="jquery_theme_link" rel="stylesheet" href="../static/scripts/jquery-ui/custom-theme/jquery-ui-1.9.0.custom.css" type="text/css"/>
+		<style>
+			body {
+				font-family: "Trebuchet MS", "Helvetica", "Arial", "Verdana", "sans-serif";
+				font-size: 62.5%;
+			}
+			label {
+				display: inline-block;
+				width: 5em;
+			}
+			fieldset div {
+				margin-bottom: 2em;
+			}
+			fieldset .help {
+				display: inline-block;
+			}
+			.ui-tooltip {
+				width: 210px;
+			}
+		</style>
+		<script>
+			$(function() {
+				var tooltips = $("[title]").tooltip();
+				$("<button>").text("Show help").button().click(function() {
+					tooltips.tooltip("open");
+				}).insertAfter("form");
+			});
+		</script>
+	</head>
+	<body>
+
+		<form>
+			<fieldset>
+				<div>
+					<label for="firstname">Firstname</label>
+					<input id="firstname" name="firstname" title="Please provide your firstname." />
+				</div>
+				<div>
+					<label for="lastname">Lastname</label>
+					<input id="lastname" name="lastname" title="Please provide also your lastname." />
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<input id="address" name="address" title="Your home or work address." />
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<select title="aaaa">
+						<option></option>
+					</select>
+				</div>
+			</fieldset>
+		</form>
+
+	</body>
+</html>

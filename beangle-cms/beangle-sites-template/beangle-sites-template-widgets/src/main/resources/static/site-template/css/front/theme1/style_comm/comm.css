@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{ background-repeat: no-repeat; }
+body{margin:0px; padding:0px;font-family: Arial, Helvetica, sans-serif; line-height:25px;font-size:12px;  }
+
+
+a{ text-decoration: none }
+a:hover{  text-decoration: underline }
+ul,li,dl,dd,dt{ margin: 0px ; padding: 0px; list-style:none }
+
+h1{font-size:18px; margin:0px; }
+h2{font-size:16px; margin:0px; }
+h3{font-size:14px; margin:0px; }
+h4{font-size:12px; margin:0px;}
+
+img{ border: 0px; }
+form{ margin: 0px; padding: 0px; }
+input,select{ border: 1px #cccccc solid;}
+
+.BlankLine00{ height: 0px; line-height:0px; clear: both; font-size: 1px;  }
+.BlankLine0{ height: 3px; line-height:3px; clear: both; font-size: 1px;  }
+.BlankLine1{ height: 10px; line-height:10px; clear: both; font-size: 1px;  }
+.BlankLine2{ height: 20px; line-height:20px; clear: both  }
+.BlankLine3{ height: 30px; line-height:30px;clear: both  }
+.BlankLine4{ height: 40px; line-height:40px; clear: both;}
+.BlankLine5{ height: 50px; line-height:50px; clear: both;}
+
+

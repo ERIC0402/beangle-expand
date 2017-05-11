@@ -1,0 +1,31 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="org.beangle.website.cms.model.AdSetting" />
+		<mapping class="org.beangle.website.cms.model.Site" />
+		<mapping class="org.beangle.website.cms.model.SiteWidgetConfig" />
+		<mapping class="org.beangle.website.cms.model.Column" />
+		<mapping class="org.beangle.website.cms.model.Content" />
+		<mapping class="org.beangle.website.cms.model.ColumnContent" />
+		<mapping class="org.beangle.website.cms.model.Annex" />
+		<mapping class="org.beangle.website.cms.model.ExtProperty" />
+		<mapping class="org.beangle.website.cms.model.ContentExtProperty" />
+		<mapping class="org.beangle.website.cms.model.Statistics" />
+		<mapping class="org.beangle.website.cms.model.Template" />
+		<mapping class="org.beangle.website.cms.model.TemplateGroup" />
+		<mapping class="org.beangle.website.cms.model.TemplateLayout" />
+		<mapping class="org.beangle.website.cms.model.Widget" />
+		<mapping class="org.beangle.website.cms.model.WidgetConfig" />
+		<mapping class="org.beangle.website.cms.model.OperationLog"/>
+		<mapping class="org.beangle.website.cms.model.ContentOperationLog"/>
+		<mapping class="org.beangle.website.cms.model.GroupColumn"/>
+		<mapping class="org.beangle.website.cms.model.LinksType"/>
+		<mapping class="org.beangle.website.cms.model.Link"/>
+		<mapping class="org.beangle.website.cms.model.OnlineMessType"/>
+		<mapping class="org.beangle.website.cms.model.OnlineMess"/>
+		<mapping class="org.beangle.website.cms.model.Disposition"/>
+		<mapping class="org.beangle.website.cms.model.Entry"/>
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,8 @@
+[#ftl]
+[@b.head/]
+[#include "../nav.ftl"/]
+	[@b.form name="taskSearchForm"  action="!search" target="tasklist" title="ui.searchForm" theme="search"]
+		[@b.textfields names="task.code;任务代码,task.name;任务名称"/]
+	[/@]
+[@b.div id="tasklist" href="!search" /]
+[@b.foot/]

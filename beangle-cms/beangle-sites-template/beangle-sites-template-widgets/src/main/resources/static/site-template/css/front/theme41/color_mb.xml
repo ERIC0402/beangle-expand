@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : theme.xml
+    Created on : 2011年6月16日, 下午4:02
+    Author     : CHII
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+    <color>
+        <title>页面主色调</title>		
+        <remark>深色-连接颜色、主标题颜色</remark>
+        <value>7ba8c5</value>
+        <child>
+		
+		
+			
+			
+			<color>
+                <name>line_2</name>
+                <value>b5b6b6</value>
+            </color>
+			<color>
+                <name>底部文字连接色</name>
+                <value>437fb1</value>
+            </color>
+			<color>
+                <name>顶部搜索按钮底色</name>
+                <value>d56045</value>
+            </color>
+			
+            <color>
+                <name>页面头部背景色</name>
+                <value>ba2a2a</value>
+            </color>
+					
+            <color>
+                <name>首页日期颜色_2</name>
+                <value>0994bc</value>
+            </color>
+			
+			 <color>
+                <name>首页列表连接颜色</name>
+                <value>1c82b0</value>
+            </color>
+          	 <color>
+                <name>首页列表下划线颜色</name>
+                <value>4e9acb</value>
+            </color>
+			
+			
+		
+			<color>
+                <name>标题字体颜色</name>
+                <value>054f71</value>
+            </color>
+			<color>
+                <name>标题字体颜色_2</name>
+                <value>c30044</value>
+            </color>
+			<color>
+                <name>标题字体颜色_3</name>
+                <value>20638c</value>
+            </color>
+			
+			
+			
+			
+			<color>
+                <name>标题前小标签颜色</name>
+                <value>fea700</value>
+            </color>
+			
+            <color>
+                <name>标题下划线颜色</name>
+                <value>860a0a</value>
+            </color>
+			 <color>
+                <name>标题前小标签颜色_2</name>
+                <value>fea700</value>
+            </color>
+			<color>
+                <name>标题前小标签颜色_3</name>
+                <value>d63d23</value>
+            </color>
+			<color>
+                <name>标题前小标签颜色_3</name>
+                <value>c5182e</value>
+            </color>
+			
+            
+			 <color>
+                <name>跳转栏背景色</name>
+                <value>d0e3f3</value>
+            </color>	
+	   
+			 <color>
+                <name>跳转栏按钮背景色</name>
+                <value>a1c3db</value>
+            </color>
+			
+			<color>
+                <name>跳转栏连接字体景色</name>
+                <value>3c6a85</value>
+            </color>
+			
+			 <color>
+                <title>列表标题字体颜色</title>
+                <value>26589a</value>        
+            </color>
+			 <color>
+        <name>页面辅色调</name>
+        <value>3688ec</value>
+           </color>	
+
+		
+            <!--<color>
+                <name>导航栏颜色</name>
+                <value>8d8d86</value>
+            </color>-->
+		 
+            
+			
+			<color>
+                <name>导航栏悬停二级子菜单选中状态</name>
+                <value>6cadd3</value>
+            </color>
+			
+			
+            <color>
+                <name>导航栏悬停背景色</name>
+                <value>589ec6</value>
+            </color>
+			 <color>
+                <name>导航栏二级菜单悬停背景色</name>
+                <value>83b7d5</value>
+            </color>
+			
+            <color>
+                <name>导航栏悬停二级子菜单边框</name>
+                <value>d9dada</value>
+            </color>
+            <color>
+                <name>页面背景色</name>
+                <value>fdfbf4</value>
+            </color>
+           
+            <color>
+                <name>二级页面标题背景色</name>
+                <value>386db3</value>
+            </color>
+            <color>
+                <name>列表前部箭头、日期等</name>
+                <value>3fa2f0</value>
+            </color>
+			
+            <color>
+                <name>页面底部背景色</name>
+                <value>d7d6d1</value>
+            </color>
+            <color>
+                <title>列表标题背景颜色</title>
+                <value>db4527</value>        
+            </color>
+            <color>
+                <title>列表标题背景颜色_2</title>
+                <value>60a8d2</value>        
+            </color>
+			<color>
+                <title>列表标题背景颜色_3</title>
+                <value>e1eff9</value>        
+            </color>
+			
+			<color>
+                <title>列表标题背景颜色_4</title>
+                <value>61a9d2</value>        
+            </color>
+			
+           
+           
+			 <color>
+                <name>二级页面加减号边框、标题边框、加减号底色</name>
+                <value>2144ac</value>
+            </color>	
+           
+            <color>
+                <name>列表内容背景色2,图片列表list_box_4_2 bg</name>
+                <value>eef5fe</value>
+            </color>
+			
+            <color>
+                <name>左侧菜单背景颜色</name>
+                <value>c2e7fc</value>
+            </color>
+			<color>
+                <name>左侧菜二级菜单_背景颜色</name>
+                <value>e3f2fb</value>
+            </color>
+            <color>
+                <name>左侧菜单背景色_悬停状态</name>
+                <value>81badb</value>
+            </color>	
+      		 <color>
+                <name>左侧菜单字体颜色</name>
+                <value>225d81</value>
+            </color>	
+			
+			<color>
+                <name>图片列表list_box_4_2 h3</name>
+                <value>125fbb</value>
+            </color>	
+	   		
+	   		
+        </child>
+    </color>	
+</root>
+

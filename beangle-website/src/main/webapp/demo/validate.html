@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>jQuery UI Tooltip - Default demo</title>
+		<script type="text/javascript" src="../static/scripts/comm/jquery-latest.js"></script>
+		<script type="text/javascript" src="../static/scripts/validate/jquery.validate.js"></script>
+		<script type="text/javascript" src="../static/scripts/validate/additional-methods.js"></script>
+		<style>
+		</style>
+		<script>
+			$(function() {
+				$("form").validate();
+				$("#firstname").rules("add", {required:true, number:true});
+			});
+		</script>
+	</head>
+	<body>
+
+		<form>
+			<fieldset>
+				<div>
+					<label for="firstname">Firstname</label>
+					<input id="firstname" name="firstname" title="Please provide your firstname." />
+				</div>
+				<div>
+					<label for="lastname">Lastname</label>
+					<input id="lastname" name="lastname" title="Please provide also your lastname." />
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<input id="address" name="address" title="Your home or work address." />
+				</div>
+				<div>
+					<label for="address">Address</label>
+					<select title="aaaa">
+						<option></option>
+					</select>
+				</div>
+			</fieldset>
+		</form>
+
+	</body>
+</html>

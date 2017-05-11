@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+a{ color: #000000;}
+
+.ip_1{ border:1px #13436a solid; }
+.ip_3{ border:1px #75b7d9 solid;}
+.ip_2{  background:url(../style_comm/turn_page_bg.png) repeat-x bottom #bfd8eb;_background:none #bfd8eb; border:1px #75b7d9 solid;color:#057cba;}
+
+.ico_1{ background:url(../style_comm/search_btn.gif) 5px 50% no-repeat #3688ec ;border:none #3688ec; color:#fff; }
+
+
+.border_right_1{ border-left:1px #bfd8eb solid}
+
+.f1{ color:#125fbb}
+.b_1{ border-right:1px #ccc dotted; }
+/*layout------------------------------------------------------------------------------*/
+.header{ background:#0a3e7a;}/*${color_1}*/
+
+.nav{border-bottom:1px #fff solid;background:url(../style_comm/nav_bg.png) repeat-x #216bcc; _background: none #216bcc;}/*${color_2}*/
+
+.main{background:url(../style_comm/content_bg.png) repeat-x top #bfd8eb;_background:none #bfd8eb;}/*${color_3}*/
+.main_content{ background:#fff;}
+.banner{border-bottom:3px #3688ec solid}
+
+.content_bg_1{ background:#c4daf9}
+
+.c_Left{border-right:1px #bfd8eb solid	 }
+
+.c_Right_2{ background:#fff}
+
+
+.footer{ text-align:center; color:#437fb1; background:#d7e1f5; border-top:3px #3688ec solid}
+.footer_content{}
+.footer a{ color:#437fb1}
+/*nav------------------------------------------------------------------------------*/
+/* LEVEL ONE*/
+ul.dropdown                         {}
+ul.dropdown li                      {}
+ul.dropdown a:hover		            { color: #fff;  }
+ul.dropdown li a                    { color: #fff;  }
+ul.dropdown li:hover                {}
+
+ul.dropdown .first_li{background:url(../style_comm/nav_line.png) 100% 50% no-repeat;_background:none; }
+ul.dropdown .current_hit{background:url(../style_comm/nav_bg.png) repeat-x #6d9cde; _background:none #6d9cde}
+ul.dropdown .hover_a{background:url(../style_comm/nav_bg.png) repeat-x #6d9cde; _background:none #6d9cde; color:#fff}
+/* LEVEL TWO*/
+ul.dropdown ul 						{ background:#6d9cde; border:1px #437fb0 solid }
+ul.dropdown ul li 					{ color: #fff; border-bottom: 1px solid #8bb3e6;}
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a:hover{ background:#1e67c8; } 
+
+
+
+/*Nav_2------------------------------------------------------------------------------*/
+.Nav2_bg{background:url(../style_comm/bg_1.png) no-repeat bottom;_background: none ;}
+.Nav2{background:#fff;}
+.Nav2 dt,.Nav2 dd{ }
+/*.Nav2 dt a{ color: #125fbb; text-decoration:none; cursor:pointer }
+.Nav2 dt a span{ float:left; width:8px; padding:3px 2px ;background:#5dcff9; color:#053269; line-height:6px; font-family:\5B8B\4F53; font-size:10px;}
+.Nav2 dt a div{ float:left; padding-left:5px}
+*/
+.Nav2 dt{ border-bottom:1px #ccc dotted;}
+.Nav2 dt a{ color: #125fbb;  }
+.Nav2 dt a span{ background:#e5effc; color:#125fbb; border:1px #7cb2f2 solid;}
+
+.Nav2 .li_hover{ background:url(../style_comm/sub_nav_bg_2.png) bottom repeat-x #cae2fc;_ background:none #cae2fc;}
+
+.Nav2 dd ul li{border-bottom:1px #a59e8a dotted;}
+.Nav2 dd ul li a{ color: #125fbb;}
+.Nav2 .li3{ background-image: url(ico6.gif);  }
+.Nav2 .li4{ background-image: url(ico5.gif);  }	
+/*other_comm------------------------------------------------------------------------------*/
+.pic_box_1{}
+.text_box_1{}
+
+.position_bar .p_bg_2{ background:#d3e7fc; border:1px #7cb2f2 solid;  }
+.position_bar .p_bg{ background:url(../style_comm/sub_top_bg.png) repeat-x bottom;_background: none;  color:#333 }
+.position_bar a{ color:#133e76}
+
+.turn_page{ background:url(../style_comm/turn_page_bg.png) repeat-x bottom #d3e7fc;_background:none #d3e7fc; color:#057cba;}
+.turn_page a{ color:#057cba}
+
+.article_content .pic_box_3{ border:1px #ccc solid }
+
+.line_1{ background:#133e76;}
+.line_2{ color:#133e76;}
+.date_bar{ color:#16427e}
+/*title------------------------------------------------------------------------------*/
+.title_1  span{ color:#16427e; border-bottom:4px #112b9d solid}
+.title_1  font{ color:#3688ec; }
+.title_1  .div_1{border-bottom:3px #3688ec solid;}
+
+.title_1  a{color:#16427e;}
+
+.title_2 { background:#3e73ba; border-bottom:2px #305a92 solid; }
+.title_2  span{  color:#fff; }
+.title_2  font{ color:#fff; }
+.title_2  a{  color:#fff;}
+
+.title_3{ color:#fff; background:#3e73ba; padding-left:15px; font-family:\5B8B\4F53;border-bottom:2px #305a92 solid;}
+
+.title_4{ color:#16427e; text-align:center; line-height:18px; padding:10px 20px; border-bottom:1px #bfd8eb solid;}
+.title_5{ color:#16427e; text-align:center; line-height:18px; padding:10px 20px; }
+
+/*list_box------------------------------------------------------------------------------*/
+.list_box_1 ul li{ border-bottom:1px #ccc dotted; }
+.list_box_1 ul li font{ color:#3fa2f0;}
+.list_box_1 ul li span{ color:#3fa2f0}
+.list_box_1 .boder-bottom-none{ border-bottom:none}
+
+.list_box_1_2 ul li{ border-bottom:1px #ccc dotted; }
+.list_box_1_2 ul li font{ color:#3fa2f0;}
+.list_box_1_2 ul li span{ color:#3fa2f0}
+.list_box_1_2 .boder-bottom-none{ border-bottom:none}
+
+.list_box_2_3  img{ border:1px #eceae3 solid; padding:2px;}
+.list_box_2_3  a{ color:#393a3a}
+.list_box_2_3 .line_2{ border-bottom:1px #bfd8eb solid;}
+
+
+.list_box_2 ul li{ border-bottom:1px #ccc dotted}
+.list_box_2 ul li font{ color:#3fa2f0;}
+.list_box_2 ul li a{ color:#393a3a}
+.list_box_2 ul li span{ color:#3fa2f0}
+.list_box_2 .boder-bottom-none{ border-bottom:none}
+
+.list_box_4 img{border:1px #d7d9d7 solid}
+.list_box_4 h3{ color:#125fbb;}
+.list_box_4 li table tr td{ background:url(../style_comm/list_bg.png) repeat-x top #eef5fe; _background:none; border-top:1px #bfbfbf dotted}
+
+.list_box_5 li{border-bottom:1px #b4b5b5 dotted;}
+.list_box_5 li span{color:#0a76fa}
+.list_box_5 li a font{ color:#3fa2f0}
+
+.list_box_6 ul li{ border-bottom:1px #ccc dotted}
+
+.list_box_7 .text_box{ border-top:1px #ccc dotted}
+
+/*list_bg------------------------------------------------------------------------------*/
+.list_bg_1{ background:url(../style_comm/bg_1.png) no-repeat top #e1edfe;_background: none #e1edfe;}
+.list_bg_2{ background:#e1edfe;}
+
+/*pic_change------------------------------------------------------------------------------*/
+.nav3 { background: #000;}
+.nav3 a { color:#ffffff; border-right: 1px #ffffff solid; }
+.nav3 a.activeSlide { background-color:#4f4d42; color:#ffffff; }
+.s4 div{color:#000000; }
+.p1{color:#16427e ;}
+.p1 a{ color:#16427e}
+
+.photo_box_1 img{ border:2px #fff solid}
+.photo_box_1 a{ color:#125fbb; line-height:20px;}
+

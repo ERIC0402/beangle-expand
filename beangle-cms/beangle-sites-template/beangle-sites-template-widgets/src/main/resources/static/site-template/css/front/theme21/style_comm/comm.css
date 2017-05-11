@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ background-repeat: no-repeat; }
+body{margin:0px; padding:0px;font-family: Arial, Helvetica, sans-serif; line-height:25px;font-size:12px;  }
+
+
+a{ text-decoration: none }
+a:hover{  text-decoration: underline }
+ul,li,dl,dd,dt{ margin: 0px ; padding: 0px; list-style:none }
+
+h1{font-size:18px; margin:0px; }
+h2{font-size:16px; margin:0px; }
+h3{font-size:14px; margin:0px; }
+h4{font-size:12px; margin:0px;}
+
+img{ border: 0px; }
+form{ margin: 0px; padding: 0px; }
+input,select{ border: 1px #cccccc solid;}
+
+.BlankLine00{ height: 0px; line-height:0px; clear: both; font-size: 1px;  }
+.BlankLine0{ height: 3px; line-height:3px; clear: both; font-size: 1px;  }
+.BlankLine1{ height: 10px; line-height:10px; clear: both;  }
+.BlankLine2{ height: 20px; line-height:20px; clear: both  }
+.BlankLine3{ height: 30px; line-height:30px;clear: both  }
+.BlankLine4{ height: 40px; line-height:40px; clear: both;}
+.BlankLine5{ height: 50px; line-height:50px; clear: both;}
+
+
+.ip_1{ background:#e5e5e5; width:130px;}
+.ip_2{  background:url(turn_page_bg.png) repeat-x bottom #cee4ff;_background:none #cee4ff;height:20px; line-height:20px;color:#000; cursor:pointer; border:none}
+.ip_3{ width:20px; border:1px #ccc solid }
+
+.ico_1{ background:url(search_btn.gif) 50% 50% no-repeat #2f2f2f; height:20px; line-height:20px;width:20px; border:1px #838383 solid; color:#fff;cursor:pointer; font-weight:bold;letter-spacing:5px;}
+
+.f1{ color:#2c61a6}
+
+.rsaquo{color:#c51009}
+
+
+/*.border_right_1{ border-left:1px #c2d0eb solid}*/

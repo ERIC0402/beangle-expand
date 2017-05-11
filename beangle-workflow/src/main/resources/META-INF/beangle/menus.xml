@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+	<resources>
+		<resource name="/workflow/wrokflow" title="流程管理" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/step-node" title="流程节点" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/node-constraint" title="节点限制" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/node-decision" title="节点跳转" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/task" title="任务管理" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/task-node" title="任务节点" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/task-node-constraint" title="任务节点限制" remark="" scope="private"  categories="manager"/>
+		<resource name="/workflow/task-node-decision" title="任务节点跳转" remark="" scope="private"  categories="manager"/>
+	</resources>
+</settings>

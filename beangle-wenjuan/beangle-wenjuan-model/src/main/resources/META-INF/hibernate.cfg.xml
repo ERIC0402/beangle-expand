@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="org.beangle.wenjuan.model.Ksap"/>
+		<mapping class="org.beangle.wenjuan.model.TiKu"/>
+		<mapping class="org.beangle.wenjuan.model.TiMu"/>
+		<mapping class="org.beangle.wenjuan.model.Tmxx"/>
+		<mapping class="org.beangle.wenjuan.model.WenJuan"/>
+		<mapping class="org.beangle.wenjuan.model.WenJuanDc"/>
+		<mapping class="org.beangle.wenjuan.model.WenJuanPj"/>
+		<mapping class="org.beangle.wenjuan.model.WenJuanSj"/>
+		<mapping class="org.beangle.wenjuan.model.Wjjg"/>
+		<mapping class="org.beangle.wenjuan.model.Wjjgtm"/>
+		<mapping class="org.beangle.wenjuan.model.Wjsz"/>
+		<mapping class="org.beangle.wenjuan.model.Wjtm"/>
+		<mapping class="org.beangle.wenjuan.model.Xxmb"/>
+		<mapping class="org.beangle.wenjuan.model.Zxks"/>
+		<mapping class="org.beangle.wenjuan.model.ZxksParent"/>
+	</session-factory>
+</hibernate-configuration>

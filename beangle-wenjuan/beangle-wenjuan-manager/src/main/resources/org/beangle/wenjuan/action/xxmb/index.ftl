@@ -1,0 +1,7 @@
+[#ftl]
+[@b.head/]
+	[@b.form name="xxmbSearchForm"  action="!search" target="xxmblist" title="ui.searchForm" theme="search"]
+		[@b.textfields names="xxmb.mbmc;模板名称"/]
+	[/@]
+	[@b.div id="xxmblist" href="!search" /]
+[@b.foot/]

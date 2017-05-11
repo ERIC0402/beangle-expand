@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <menu id="1768" code="5" name="信息中心" title="信息中心" profileId="2"/>
+  <menu id="1768" code="5.1" name="内容中心" title="信息中心" profileId="2"/>
+  <menu id="1832" code="5.1.1" name="新建" title="新建" entry="/cms/add-content" profileId="2" parentId="1768">
+    <resource id="2465" name="/cms/add-content" title="新建内容" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1864" code="5.1.2" name="待处理" title="待处理" entry="/cms/process-content" profileId="2" parentId="1768">
+    <resource id="2562" name="/cms/set-rel-column" title="关联栏目" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+    <resource id="2529" name="/cms/process-content" title="待处理" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1928" code="5.1.3" name="信息管理" title="信息管理" entry="/cms/content-manage" profileId="2" parentId="1768">
+    <resource id="2593" name="/cms/content-manage" title="内容管理" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1772" code="5.1.4" name="附件管理" title="附件管理" entry="/cms/annex" profileId="2" parentId="1768">
+    <resource id="2401" name="/cms/annex" title="附件管理" scope="2">
+      <category id="2"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1800" code="5.2" name="站点管理" title="站点管理" profileId="2"/>
+  <menu id="1896" code="5.2.1" name="站点管理" title="站点管理" entry="/cms/site" remark="1111" profileId="2" parentId="1800">
+    <resource id="2561" name="/cms/site" title="站点管理" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1803" code="5.2.2" name="栏目管理" title="栏目管理" entry="/cms/column" profileId="2" parentId="1800">
+    <resource id="2433" name="/cms/column" title="栏目管理" scope="2">
+      <category id="2"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2057" code="5.2.3" name="二级授权" title="二级授权" entry="/cms/group-column!edit" profileId="2" parentId="1800">
+    <resource id="2690" name="/cms/group-column" title="栏目权限" scope="2">
+      <category id="2"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="1801" code="5.2.4" name="模板管理" title="模板管理" profileId="2" parentId="1800"/>
+  <menu id="2099" code="5.3" name="访问量统计" title="访问量统计" profileId="2" parentId="1800"/>
+  <menu id="2100" code="5.3.1" name="栏目访问量统计" title="栏目访问量统计" entry="/cms/column-statistics" profileId="2" parentId="2099">
+    <resource id="2723" name="/cms/column-statistics" title="栏目访问量统计" scope="2">
+      <category id="2"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2101" code="5.3.2" name="信息访问量统计" title="信息访问量统计" entry="/cms/content-statistics" profileId="2" parentId="2099">
+    <resource id="2724" name="/cms/content-statistics" title="信息访问量统计" scope="2">
+      <category id="2"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+  <menu id="2185" code="5.4" name="扩展功能" title="扩展功能" remark="扩展功能" profileId="2"/>
+  <menu id="1960" code="5.4.1" name="友情链接" title="友情链接" entry="/cms/links-type" profileId="2" parentId="2185">
+    <resource id="2626" name="/cms/link" title="友情链接" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+    <resource id="2625" name="/cms/links-type" title="链接类型" scope="2">
+      <category id="2"/>
+      <category id="1"/>
+      <category id="3"/>
+    </resource>
+  </menu>
+</root>

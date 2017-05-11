@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+	<resources>
+		<resource name="/system/dict-type" title="字典类型" remark="" scope="private"  categories="manager"/>
+		<resource name="/system/dict-data" title="字典数据" remark="" scope="private"  categories="manager"/>
+		<resource name="/system/system-argument" title="系统参数" remark="" scope="private"  categories="manager"/>
+	</resources>
+</settings>

@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header{ clear:both; width:100%; }
+.header{ min-width:940px;}
+.header .pic_box{ position:relative}
+.header .top_menu{ z-index:100; text-align:right; bottom:10%; }
+.header .top_menu{width:940px; margin:0px auto;position:absolute }
+.header .top_box{ width:940px; margin:0px auto;position:relative }
+
+.ip_1{ width:120px;}
+.ip_3{ width:20px; height:15px; line-height:15px;}
+.ip_2{ height:20px; line-height:20px; cursor:pointer}
+
+.ico_1{ height:21px; line-height:21px;width:65px; border:none; cursor:pointer; font-weight:bold; padding:1px 0px 0px 20px;letter-spacing:5px;}
+
+/*search------------------------------------------------------------------------------*/
+.search{ padding:60px 0px 0px 740px; width:220px; }
+/*search------------------------------------------------------------------------------*/
+
+
+.nav{height:38px; clear:both; margin:0px auto; width:100%; min-width:960px; }
+.nav_box{ width:960px;margin:0px auto}
+
+.main{ width:100%;}
+.main_content{width:960px; margin:0px auto; }
+
+.banner{ margin:0px auto;}
+
+.content{ margin:0px auto; overflow: hidden; }
+
+.c_Left{padding:0 13px 0 5px; }
+.c_Left_Top{ width:100%; overflow: hidden;}
+.c_Left_Bottom_Left{ padding-right:14px;}
+.c_Left_Bottom_Right{padding-left: 14px;}
+
+.c_Middle{ float: left;}
+
+.c_Right{padding-left:11px; }
+
+
+.c_Left_2{ min-height:800px; }
+.c_Right_2{padding:0px 13px 0px 11px; }
+
+.c_Middle_2{ float:left; width:960px; min-height:1000px;}
+
+.footer{clear: both; width:100% ; min-width:960px; }
+.footer_content{ margin:0px auto; width:960px;height:64px; padding-top:15px;}
+
+/*nav------------------------------------------------------------------------------*/
+/* LEVEL ONE*/
+ul.dropdown                         { position: relative; z-index:100; width:960px; height:38px; line-height:38px;}
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1;  }
+ul.dropdown li:hover                { position: relative; }
+
+ul.dropdown .first_li{padding-right:2px; font-size:14px; }
+ul.dropdown .first_li .first_a{ float:left;padding:0px 18px;}
+ul.dropdown .hover{ position: relative; }
+ul.dropdown .hover_a{padding:0px 18px;}
+/* LEVEL TWO*/
+ul.dropdown ul 						{ width: 120px; visibility: hidden; position: absolute; top: 100%; left: 0;}
+ul.dropdown ul li 					{ font-weight: normal; font-size:12px;  float: none; width:118px ;line-height:15px; padding:10px 4px}
+
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ width: 85%; padding:2px 5px;}
+ul.dropdown ul li a:hover			{ text-decoration:none} 
+
+/* LEVEL THREE*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+/*Nav_2------------------------------------------------------------------------------*/
+.Nav2_bg{ width:100%; clear:both; padding-bottom:200px; }
+.Nav2{ clear: both; width: 100%; }
+.Nav2 dt{ line-height: 15px;padding:10px 0px 10px 0px; font-weight:bold;}
+/*.Nav2 dt a{ color: #125fbb; text-decoration:none; cursor:pointer }
+.Nav2 dt a span{ float:left; width:8px; padding:3px 2px ;background:#5dcff9; color:#053269; line-height:6px; font-family:\5B8B\4F53; font-size:10px;}
+.Nav2 dt a div{ float:left; padding-left:5px}
+*/
+.Nav2 dt{line-height: 15px;padding:2px 0px; font-weight:bold; clear:both }
+.Nav2 dt a{text-decoration:none; cursor:pointer }
+.Nav2 dt a span{ float:left; width:6px; padding:2px 2px 2px 1px ; line-height:5px; font-family:\5B8B\4F53; font-size:10px; margin:2px 0px 0px 0px}
+
+
+.Nav2 .li_hover{  cursor:pointer;}
+
+.Nav2 .li2_1 .div_2{ padding:5px 0px 3px 15px;}
+.Nav2 .li2_2 .div_2{ padding:5px 0px 3px 32px;}
+
+.Nav2 dd { margin: 0px; padding: 0px; clear:both;}
+.Nav2 dd ul{ clear:both}
+.Nav2 dd ul li{font-family:\5B8B\4F53; padding:2px 0px; clear:both }
+.Nav2 dd ul li .div_3{padding:0px 0px 0px 45px;}
+.Nav2 .li3{padding-left: 5px; }
+.Nav2 .li4{padding-left: 5px; }	
+/*other_comm------------------------------------------------------------------------------*/
+.pic_box_1{ float:left; width:41%;  position:relative;float:left; padding:10px 2% 0px 28px ;}
+.text_box_1{ float:left; width:52%}
+.pic_box_2{ padding-right:30px; width: 260px;}
+
+.line_1{clear:both; height:7px; line-height:7px; font-size:1px;}
+
+.postion_bar{height:30px; width:100%}
+.position_bar .p_bg_3{ position:relative;}
+.position_bar .p_bg_2{position:absolute; width:99%;height:28px; }
+.position_bar .p_bg{position:relative; z-index:1;  width:100% ;height:30px;}
+.position_bar .p_bg span{ padding-left:15px;font-family:\5B8B\4F53;}
+
+.pic_box_3{ padding:4px; }
+
+
+
+.turn_page{height:30px; line-height:30px;}
+
+.date_bar{ text-align:right; height:15px; line-height:15px;}
+.article_box{ padding:20px 50px;}
+.article_content{ padding:30px 20px;}
+/*title------------------------------------------------------------------------------*/
+/*.title_1 {height:29px; line-height:29px; clear:both;}
+
+.title_1  span{ float:left;  font-size:14px; font-family:\5B8B\4F53; padding:0px 15px 0px 15px;}
+.title_1  font{  font-size:12px;}
+.title_1  .div_2{ position: relative; z-index:10; line-height:20px  }
+.title_1  .div_1{padding:2px 0px 0px 0px ;padding:1px 0px 0px 0px \9; position: relative;top:26px; top:-7px \9; z-index:0;  height:3px;width:100%; line-height:3px; font-size:1px;}
+
+.title_1  a{ float:right;font-weight:normal; padding-right:20px;}
+*/
+.title_1 {height:29px; line-height:29px; clear:both;}
+
+.title_1  span{ float:left;  font-size:14px; font-family:\5B8B\4F53; padding:0px 15px 0px 15px;}
+.title_1  font{  font-size:12px;}
+.title_1  .div_2{ position: relative; z-index:10;  }
+.title_1  .div_1{padding:2px 0px 0px 0px ;padding:1px 0px 0px 0px \9; position: relative;top:26px; top:-7px \9; z-index:0;  height:3px;width:100%; line-height:3px; font-size:1px;}
+
+.title_1  a{ float:right;font-weight:normal; padding-right:20px;}
+
+
+
+.title_2 { height:29px; line-height:29px; clear:both}
+.title_2  span{ float:left; font-size:14px; font-family:\5B8B\4F53; padding-left:10px;}
+.title_2  font{ font-size:12px;}
+.title_2  a{ float:right; font-weight:normal; padding-right:20px;}
+
+.title_4{text-align:center; line-height:18px; padding:10px 20px;}
+.title_5{text-align:center; line-height:18px; padding:10px 20px; }
+
+/*list_box------------------------------------------------------------------------------*/
+.list_box_1{width:100%; padding:10px 0px 0px 0px ; }
+.list_box_1 ul{ width:90%; clear:both; padding:10px 5%}
+.list_box_1 ul li{ width:100%; line-height:29px; height:29px;}
+.list_box_1 ul li font{font-family:\5B8B\4F53; font-size:10px; padding-right:5px; float:left}
+.list_box_1 ul li a{
+ float:left;
+ display:block;
+white-space:nowrap;
+overflow:hidden;
+-o-text-overflow: ellipsis; /* for Opera */
+text-overflow:ellipsis; /* for IE */
+ width:70%;
+}
+.list_box_1 ul li a:after{content:"…";}/* for Firefox */
+.list_box_1 ul li span{ float:right;}
+
+.list_box_1_2{ float:left; width:100%; padding:10px 0px 0px 0px ; }
+.list_box_1_2 ul{ width:100%; clear:both; padding:10px 3%}
+.list_box_1_2 ul li{ width:100%; line-height:29px; height:29px;}
+.list_box_1_2 ul li font{font-family:\5B8B\4F53; font-size:10px; padding-right:5px; float:left}
+.list_box_1_2 ul li a{
+ float:left;
+ display:block;
+white-space:nowrap;
+overflow:hidden;
+-o-text-overflow: ellipsis; /* for Opera */
+*text-overflow:ellipsis; /* for IE */
+ width:95%;
+}
+.list_box_1_2 ul li a:after{content:"…";}/* for Firefox */
+.list_box_1_2 ul li span{ float:right;}
+
+.list_box_2_3{ width:98%; clear:both; padding:1%; min-height:800px; _height:800px;}
+.list_box_2_3 .pic_box_3_3{ width:29%; line-height:15px; padding:10px 2%;float:left}
+.list_box_2_3 .pic_box_3_3 div{ padding:0px 10px;}
+.list_box_2_3 .pic_box_3_3 img{ width:196px; height:149px;}
+.list_box_2_3 div img{ margin:0px 0px 20px 0px}
+.list_box_2_3 .line_2{ clear:both; height:15px; line-height:15px; width:95%; margin-bottom:25px;}
+
+
+
+.list_box_2{ float:left; width:88%; padding:4% 6%; }
+.list_box_2 ul{ width:94%; clear:both; padding:3%}
+.list_box_2 ul li{ width:100%; line-height:15px; padding:7px 0px;}
+.list_box_2 ul li font{font-family:\5B8B\4F53; font-size:10px; padding-right:10px;}
+.list_box_2 ul li span{ float:right;}
+
+.list_box_3{ padding:0px 0px 0px 10px;min-height:800px}
+
+.list_box_4{ padding:10px 20px}
+.list_box_4 li{ padding:10px 20px;}
+.list_box_4 img{ width:228px; height:172px;}
+.list_box_4 h3{font-family:\5B8B\4F53;}
+.list_box_4 li table tr td{ padding:20px 15px 0px 15px; }
+
+.list_box_5{ padding:10px 20px}
+.list_box_5 li{ height:35px; line-height:35px; clear:both; padding:0px 10px;}
+.list_box_5 li a{
+ display:block;
+white-space:nowrap;
+overflow:hidden;
+-o-text-overflow: ellipsis; /* for Opera */
+text-overflow:ellipsis; /* for IE */
+width: 85%;}
+.list_box_5 li span{ float:right;}
+
+
+.list_box_6{ padding-left:30px}
+.list_box_6 ul li{ padding:2px 15px}
+
+.list_box_7 .text_box{ padding:5px 15px;}
+/*s3------------------------------------------------------------------------------*/
+.s3{ width:166px; height:245px; overflow:hidden; }
+.s3 img{  width:73px; height:96px; }
+.s3 div{ width:166px; height:245px; }
+.photo_box_1{ text-align:center;}
+/*s4------------------------------------------------------------------------------*/
+.nav3 {  width:281px; text-align:right; position: absolute; top: 178px ; z-index: 100;   height: 15px; line-height: 15px}
+.nav3 a {padding:0px 8px; text-decoration: none }
+.nav3 a.activeSlide {  font-weight:bold;padding:0px 8px; }
+.nav3 a:focus { outline: none; }
+.s4{ width:281px; height:225px; overflow:hidden; }
+.s4 img{  width:281px; height:178px; }
+.s4 div{ width:281px; height:225px;}
+.p1{ height: 50px ; line-height: 16px; vertical-align: bottom; padding:15px 10px 0px 10px; }
+.p1 font{font-family:\5B8B\4F53;}
+/*s5------------------------------------------------------------------------------*/
+.s5{ width:960px; height:198px; overflow:hidden; }
+.s5 img{  width:960px; height:198px; }
+.s5 div{ width:960px; height:198px; }
+

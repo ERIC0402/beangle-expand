@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 2.6//EN"
+        "http://tuckey.org/res/dtds/urlrewrite2.6.dtd">
+
+<!--
+
+    Configuration file for UrlRewriteFilter
+    http://tuckey.org/urlrewrite/
+
+-->
+<urlrewrite>
+
+    <rule>
+        <note>站点首页
+       /xxx/index.htm
+       /站点根目录/index.htm
+        </note>
+        <from>/(.+)/index.htm</from>
+        <to type="forward">/cms/template/front!index.action?site=$1</to>
+    </rule>
+
+    <rule>
+        <note>信息列表
+       /xxx/list/333-1-20.htm
+       /站点根目录/list/columnId-pageNo-pageSize.htm
+        </note>
+        <from>/(.+)/list/(\d+)-(\d+)-(\d+)\.htm</from>
+        <to type="forward">/cms/template/front!list.action?site=$1&amp;cid=$2&amp;pageNo=$3&amp;pageSize=$4</to>
+    </rule>
+
+    <rule>
+        <note>信息列表
+       /xxx/list/333-1-20.htm
+       /站点根目录/list/columnId-pageNo-pageSize.htm
+        </note>
+        <from>/(.+)/list/(\d+)-(\d+)-(\d+)\.htm</from>
+        <to type="forward">/cms/template/front!list.action?site=$1&amp;cid=$2&amp;pageNo=$3&amp;pageSize=$4</to>
+    </rule>
+
+    <rule>
+        <note>详细信息
+       /xxx/info/333.htm
+       /站点根目录/info/infoId.htm
+        </note>
+        <from>/(.+)/info/(.+)\.htm</from>
+        <to type="forward">/cms/template/front!info.action?site=$1&amp;ccid=$2</to>
+    </rule>
+
+    <rule>
+        <note>功能模块
+       /xxx/detail/111_333.htm
+       /站点根目录/detail/cid_infoId.htm
+        </note>
+        <from>/(.+)/detail/(.+)_(.+)\.htm</from>
+        <to type="forward">/cms/template/front!detail.action?site=$1&amp;cid=$2&amp;ccid=$3</to>
+    </rule>
+    <rule>
+        <note>定制模板
+       /xxx/module/111-333-1-20.htm
+       /站点根目录/module/cid-模板ID.htm
+        </note>
+        <from>/(.+)/module/(.+)-(.+)-(.+)-(.+)\.htm</from>
+        <to type="forward">/front/front!module.action?site=$1&amp;cid=$2&amp;tid=$3&amp;pageNo=$4&amp;pageSize=$5</to>
+    </rule>
+    <rule>
+        <note>搜索页面
+       /xxx/search.htm
+       /站点根目录/search.htm
+        </note>
+        <from>/(.+)/search-(\d+)-(\d+)\.htm</from>
+        <to type="forward">/cms/template/front!search.action?site=$1&amp;pageNo=$2&amp;pageSize=$3</to>
+    </rule>
+
+    <rule>
+        <note>显示图片
+       /contentImg/333.htm
+       /contentImg/fileID.htm
+        </note>
+        <from>/contentImg/(\d+).htm</from>
+        <to type="forward">/cms/template/front.action?method=downFileById&amp;fileId=$1</to>
+    </rule>
+    
+</urlrewrite>

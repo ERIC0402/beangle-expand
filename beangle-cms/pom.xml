@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>org.beangle</groupId>
+		<artifactId>beangle-expand</artifactId>
+		<version>2.6.2</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>beangle-cms</artifactId>
+	<packaging>pom</packaging>
+	<name>Beangle Cms</name>
+
+	<modules>
+		<module>beangle-cms-common</module>
+		<module>beangle-cms-content</module>
+		<module>beangle-cms-manager</module>
+		<module>beangle-cms-model</module>
+		<module>beangle-sites-normal</module>
+<!-- 		<module>beangle-sites-template</module> -->
+	</modules>
+
+	<properties>
+		<ibeangle.version>2.6.2</ibeangle.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>beangle-cms-model</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>beangle-cms-common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>beangle-cms-content</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

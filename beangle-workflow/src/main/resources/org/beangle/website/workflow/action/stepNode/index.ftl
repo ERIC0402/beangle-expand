@@ -1,0 +1,8 @@
+[#ftl]
+[@b.head/]
+	[@b.form name="stepNodeSearchForm"  action="!search" target="stepNodelist" title="ui.searchForm" theme="search"]
+		[@b.select name="stepNode.workflow.id" label="流程" value=(workflow.id)! empty="..." items=workflows option="id,name"/]
+		[@b.textfields names="stepNode.order;节点编号,stepNode.name;节点名称"/]
+	[/@]
+[@b.div id="stepNodelist" href="!search" /]
+[@b.foot/]

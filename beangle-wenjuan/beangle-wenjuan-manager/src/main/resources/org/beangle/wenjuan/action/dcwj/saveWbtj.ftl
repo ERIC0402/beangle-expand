@@ -1,0 +1,2 @@
+[#ftl]
+[#include "closeDialog.ftl"/]

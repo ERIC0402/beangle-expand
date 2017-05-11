@@ -1,0 +1,5 @@
+[#ftl]
+[@b.head/]
+[@b.toolbar title="站点"]bar.addBack();[/@]
+[#include 'editSiteForm.ftl'/]
+[@b.foot/]

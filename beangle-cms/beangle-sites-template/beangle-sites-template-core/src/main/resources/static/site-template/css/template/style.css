@@ -1,0 +1,105 @@
+/* 
+    Document   : style
+    Created on : 2011-5-17, 9:24:44
+    Author     : CHII
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body{font-size: 12px; width: 100%;margin: 0;line-height: 25px;}
+p{margin: 3px;}
+/*div{text-align: left;}*/
+ul{margin: 0px;}
+.clearDiv{clear: both; height: 0px!important;line-height: 0px;min-height:0px!important;}
+
+.toolBar{position: fixed;padding: 10px; z-index: 999;}
+.toolBar2{position: absolute;display: none; z-index: 999;}
+.toolBar3{}
+
+.toolBox{float: left}
+
+.pageContainer{float: right; margin-left: -220px; width: 100%; margin-top: 58px;}
+.pageContainer .inPageContainer{margin-left: 220px; height: 100%; padding:0 10px;}
+
+/**layout*/
+
+.selectLayoutOl li.ui-selecting { background: #FECA40;}
+.selectLayoutOl li.ui-selected { background: #F39814; color: white; }
+.selectLayoutOl { list-style-type: none;  padding: 58px 0 0 0; margin: 0px;}
+.selectLayoutOl li { margin: 3px; padding: 5px; float: left;text-align: center; }
+
+.layoutBoxTabs,.widgetBoxTabs{width: 220px;position: fixed!important; top: 58px; bottom: 10px; overflow-y:scroll; }
+/*.widgetBoxTabs1,.widgetBoxTabs2{overflow:scroll; height: 100%; padding-bottom: 100px;}*/
+.layoutBox div{
+    cursor:move;
+    height:39px;
+    line-height:34px;
+    list-style-type:none;
+    padding:3px 0 0 65px;
+}
+.layoutBox .litem{
+    background:url("layouts.gif") no-repeat scroll transparent;
+}
+.layoutBox .litem1{background-position:3px -100px ;}
+.layoutBox .litem2{background-position:3px -200px ;}
+.layoutBox .litem3{background-position:3px -300px ;}
+.layoutBox .litem4{background-position:3px -400px ;}
+.layoutBox .litem5{background-position:3px -500px ;}
+.layoutBox .litem6{background-position:3px -600px ;}
+.layoutBox .litem7{background-position:3px -700px ;}
+.layoutBox .litem8{background-position:3px -800px ;}
+.layoutBox .litem9{background-position:3px -900px ;}
+.layoutBox .litem10{background-position:3px -1000px ;}
+.layoutBox .litem11{background-position:3px -1100px ;}
+.layoutBox .litem12{background-position:3px -1200px ;}
+
+.layoutTabs{padding: 10px;}
+.templateLayoutTextarea{width: 100%; height: 500px;}
+#layoutRoot{border: #666666 1px dashed ;}
+.editLayoutDiv {border: 1px dotted #666666; margin: 5px;}
+.editLayoutDiv .emptyDiv{height: 80px;background:url("comment2.png") no-repeat scroll transparent 50% 50%;background-color: #FFDDDD; margin:5px;}
+.editLayoutForm{width: 500px;}
+.editLayoutForm .item, .editLayoutForm .title{ height: 40px; line-height: 40px; vertical-align: middle}
+.editLayoutForm .title{width: 30%; text-align: right;float: left;}
+.editLayoutForm .item{width: 60%;float: left;}
+.ui-progressbar-value { background-image: url(pbar-ani.gif); }
+.editLayoutFormStyles input,.editLayoutFormClazzs input{width: 300px;}
+/**layout*/
+
+/** content start **/
+.templateContentTextarea{width: 100%; height: 500px;}
+.widget{border: 1px #cccccc solid; margin-bottom: 10px; padding: 5px;}
+.contentMode .emptyDiv{text-align: center}
+.contentMode .emptyDiv{border: 1px #999999 dotted; height: 50px;}
+.contentMode .emptyDiv p{color: #cccccc;}
+/** content end **/
+
+.divForm .title,.divForm .item{line-height: 25px;}
+/**.divForm input{margin: 5px;}**/
+.divForm .title{float: left; width: 30%;text-align: right}
+.divForm .item{float: left; width: 70%;}
+
+.previewDiv{position: fixed; right: 5px; top: 5px; z-index: 999999}
+
+.list_box1 {
+    border-top: #c2c2c2 1px solid;
+    border-left: #c2c2c2 solid 1px
+}
+
+.list_box1 tr td {
+    border-bottom: #c2c2c2 1px solid;
+    border-right: #c2c2c2 solid 1px;
+    padding: 3px 10px
+}
+
+.list_box1 .list_box1_title {
+    background-color: #efefef;
+    text-align: right;
+    width: 25%;
+}
+
+.list_box1 .hidden{display: none;}

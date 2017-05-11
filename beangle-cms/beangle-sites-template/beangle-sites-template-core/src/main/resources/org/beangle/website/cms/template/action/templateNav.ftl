@@ -1,0 +1,7 @@
+[#ftl]
+[@b.navmenu title="模板管理"]
+	[@ems.guard res="/cms/template-layout"][@b.navitem title="布局" href="template-layout" /][/@]
+	[@ems.guard res="/cms/template-group"][@b.navitem title="模板组" href="template-group" /][/@]
+	[@ems.guard res="/cms/widget"][@b.navitem title="组件" href="widget" /][/@]
+	[@ems.guard res="/cms/template"][@b.navitem title="模板" href="template"/][/@]
+[/@]

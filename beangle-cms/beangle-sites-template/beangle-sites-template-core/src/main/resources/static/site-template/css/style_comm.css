@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */ * {
+    background-repeat: no-repeat;
+}
+
+.loginBody {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 12px;
+    background-image: url(index_01.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #bcdef2
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+ul, li, dl, dd, dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.d1 {
+    list-style: none
+}
+
+h1 {
+    font-size: 12px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.BlankLine00 {
+    height: 2px;
+    line-height: 2px;
+    clear: both;
+    font-size: 1px;
+    background-color: #ffffff
+}
+
+.BlankLine0 {
+    height: 3px;
+    line-height: 3px;
+    clear: both;
+    font-size: 1px;
+    background-color: #ffffff
+}
+
+.BlankLine1 {
+    height: 10px;
+    line-height: 10px;
+    clear: both;
+    font-size: 1px;
+}
+
+.BlankLine2 {
+    height: 20px;
+    line-height: 20px;
+    clear: both
+}
+
+.BlankLine3 {
+    height: 30px;
+    line-height: 30px;
+    clear: both
+}
+
+.BlankLine4 {
+    height: 40px;
+    line-height: 40px;
+    clear: both;
+}
+
+.BlankLine5 {
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+}
+
+.clear {
+    height: 1px;
+    line-height: 1px;
+    font-size: 1px;
+    border-bottom: 1px #cccccc dotted
+}
+
+.hit1 {
+    text-decoration: underline
+}
+
+img {
+    border: 0px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+#BodyBg {
+    margin: 0px auto;
+    width: 567px;
+    background-image: url(index_03.jpg);
+    background-position: top;
+    background-color: #b0d4e0;
+    height: 700px;
+}
+
+#login_box {
+    padding: 280px 150px 0px 160px;
+}
+
+.lip1 {
+    background-image: url(index_06.jpg);
+    height: 22px;
+}
+
+.lip2 {
+    background-image: url(index_09.jpg);
+    height: 22px;
+}
+
+/*.ip3{ background-image:url(index_11.jpg);  height:22px;}*/
+.ip3 {
+    height: 22px;
+}
+
+.ip_all {
+    border: 0px;
+    padding-left: 25px;
+    line-height: 22px;
+    width: 124px;
+    width: 123px;
+}
+
+#error_text {
+    color: #ff0000;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.lip4 {
+    background-image: url(index_14.jpg);
+    height: 27px;
+    width: 65px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 27px;
+    border: 0px;
+	cursor:pointer;
+}
+
+.ip7 {
+    background-image: url(index_20.jpg);
+    height: 27px;
+    width: 85px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 27px;
+    border: 0px;
+}
+
+/*pic_change*/
+.nav2 {
+    width: 293px;
+    text-align: right;
+}
+
+#nav2 a {
+    margin: 0px 2px;
+    padding: 2px 20px;
+    background-image: url(ico4.jpg);
+    text-decoration: none;
+    color: #693400
+}
+
+#nav2 a.activeSlide {
+    background-image: url(ico5.jpg);
+    color: #cc0031;
+    font-weight: bold;
+    margin: 0px 2px;
+    padding: 2px 20px;
+}
+
+#nav2 a:focus {
+    outline: none;
+}
+
+#s4 {
+    width: 919px;
+    height: 194px;
+    overflow: hidden;
+}
+
+#s4 img {
+    border: 5px #cccccc solid;
+    width: 248px;
+    height: 174px;
+}
+
+#s4 div {
+    width: 760px;
+    height: 194px;
+    color: #000000;
+}
+
+#s4 .dt1 {
+    float: left;
+    padding: 10px 10px 10px 30px;
+}
+
+#s4 .dd2 {
+    float: left;
+    padding: 10px;
+    width: 420px;
+}
+
+.list_8 td{ border-bottom:1px #cccccc dotted; padding:10px 10px;}
+.td_5{ background:#f1f6fa;}
+.td_6{ border-left:1px #cccccc dotted}
+.td_7{ border-right:1px #cccccc dotted}
+.title_9{ background:url(index_14_1.jpg) repeat-x; height:28px; line-height:28px; font-weight:bold;color:#004782}
+h5{ margin:0px; padding:0px; font-size:12px;}
+
+.item{margin: 0px 4px; float: left; height: 19px; cursor: pointer;}
+.item .left,.item .right,.item .center{float: left;background-image: url(bg.gif); overflow: hidden; height: 20px;}
+.item .left,.item .right{width: 6px; background-repeat:no-repeat;overflow: hidden}
+.item .left{background-position: -5px -5px;}
+.item .center{background-position: -20px -5px; font-size: 12px; padding: 3px 4px 3px 4px;}
+.item .right{background-position: -5px -30px;}
+
+
+.imgItemDiv{text-align: center; width: 200px; float: left; margin: 10px;}
+.imgItemDiv .imgDiv{width: 200px; height: 160px;border: 1px #999999 dotted; margin: 3px; background-color: #eeeeee}
+
+.step{list-style-type: decimal}

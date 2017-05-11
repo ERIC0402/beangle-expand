@@ -1,0 +1,26 @@
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN"
+"http://jetty.mortbay.org/configure.dtd">
+
+<Configure class="org.mortbay.jetty.webapp.WebAppContext">
+
+	<New id="eams" class="org.mortbay.jetty.plus.naming.Resource">
+		<Arg></Arg>
+		<Arg>jdbc/dataSource</Arg>
+		<Arg>
+			<!-- <New class="com.mchange.v2.c3p0.ComboPooledDataSource">
+			<Set name="URL">jdbc:h2:/home/zhouqi/workspace_current_4/eams_core_trunk/platform/eams-platform-doc/src/main/db/eams;AUTO_SERVER=TRUE</Set>
+			<Set name="driverClass">org.h2.Driver</Set>
+			<Set name="jdbcUrl">jdbc:h2:E:/Data/database/h2/website3;AUTO_SERVER=TRUE</Set>
+			<Set name="user">sa</Set>
+			<Set name="password"></Set>
+			</New> -->
+			<New class="com.mchange.v2.c3p0.ComboPooledDataSource">
+				<Set name="driverClass">oracle.jdbc.driver.OracleDriver</Set>
+				<Set name="jdbcUrl">jdbc:oracle:thin:@172.28.200.33:1521:orcl</Set>
+				<Set name="user">newwebsite</Set>
+				<Set name="password">123456</Set>
+			</New>
+		</Arg>
+	</New>
+</Configure>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script type="text/javascript" src="static/scripts/comm/jquery-latest.js"></script>
+		<script type="text/javascript" src="static/scripts/comm/jquery.hoveraccordion.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){ 
+			   $('#example1').hoverAccordion({ 
+			        keepHeight : true, 
+			        onClickOnly : true 
+			  }); 
+			});
+		</script>
+	</head>
+	<body>
+<table class="table_style_2"><div class="grid">
+<table id="grid1986255406" cellSpacing=0 cellPadding=0 class="table_style_1">
+<thead>
+<tr>
+<td ></td>
+<td >序号</td>
+<td >用户组</td>
+<td >成员</td>
+<td >授权</td>
+<td >管理</td>
+<td >加入时间</td>
+</tr>
+</thead>
+
+<tbody id="grid1986255406_data"><tr>				<td><input name="groupId" type="checkbox" onchange="changeMember(1,this)"/></td>
+				<td>1</td>
+				<td><span >系统管理员</span></td>
+<td>				<input type="checkbox" name="member1" checked="checked"/>
+</td><td>				<input type="checkbox" name="granter1" checked="checked"/>
+</td><td>				<input type="checkbox" name="manager1" checked="checked"/>
+</td>				<td>2012-10-26 08:48</td>
+</tr></tbody>
+</table>
+<script type="text/javascript">
+page_grid1986255406 = bg.page("/webapp/security/user!edit.action","");
+page_grid1986255406.target("",'grid1986255406').action("/webapp/security/user!edit.action").addParams('user.id=1').orderBy("null");
+bg.ui.grid.init('grid1986255406',page_grid1986255406);
+</script>
+</div></table>
+	</body>
+</html>

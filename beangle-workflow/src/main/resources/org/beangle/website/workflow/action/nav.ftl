@@ -1,0 +1,5 @@
+[#ftl]
+[@b.navmenu title="流程管理"]
+	[@ems.guard res="/workflow/workflow"][@b.navitem title="流程管理" href="workflow" /][/@]
+	[@ems.guard res="/workflow/task"][@b.navitem title="任务管理" href="task" /][/@]
+[/@]

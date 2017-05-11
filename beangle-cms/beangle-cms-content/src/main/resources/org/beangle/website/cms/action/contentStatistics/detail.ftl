@@ -1,0 +1,16 @@
+[#ftl]
+[@b.head/]
+[@b.form action="!search"]
+[@b.toolbar title="信息统计详细信息"]bar.addBack();[/@]
+
+[@b.grid items=columnsStatisticses var="statistics"]
+	[@b.row]
+		[@b.col width="50%" property="" title="信息"]${statistics.content.title!}[/@]
+		[@b.col width="30%" title="日期" ]
+			${statistics.viewDate?if_exists?string?date("yyyy-MM-dd")}
+		[/@]
+		[@b.col width="20%" property="" title="访问次数"]${statistics.views!}[/@]
+	[/@]
+[/@]
+[/@]
+[@b.foot/]

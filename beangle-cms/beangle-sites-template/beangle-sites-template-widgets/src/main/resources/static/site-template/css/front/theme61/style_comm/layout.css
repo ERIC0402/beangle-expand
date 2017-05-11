@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{ clear:both; width:100%; }
+.header{ min-width:940px;}
+.header .pic_box{ position:relative}
+.header .top_menu{ z-index:100; text-align:right; bottom:30%; }
+.header .top_menu{width:940px; margin:0px auto;position:absolute }
+.header .top_box{ width:940px; margin:0px auto;position:relative }
+.header .top_bar{ width:940px;  height:20px; line-height:20px; text-align:right; }
+.header .top_bar a{ padding:0px 20px; font-size:10px;}
+/*search------------------------------------------------------------------------------*/
+.search{ padding:60px 0px 0px 740px; width:220px; }
+/*search------------------------------------------------------------------------------*/
+
+
+.nav{height:34px; clear:both; margin:0px auto; width:100%; min-width:940px;}
+.nav_box{ width:900px;margin:0px auto; padding:0px 20px;z-index:1000}
+.nav_box_bottom{ width:900px; height:15px; height:1px; line-height:1px ; font-size:1px;clear:both; margin:0px auto;}
+.main{ width:100%;}
+.main_content{width:940px; margin:0px auto; padding:0px 0px; }
+
+.banner{ margin:0px auto; padding:0px; }
+
+.content{ margin:0px auto; float:left; width:940px}
+
+.content_2{ margin:0px auto; float:left; width:934px; padding:5px 3px 0px 3px;}
+
+
+.c_Left{width:722px; padding:0px 10px 0px 0px;_padding:0px 0px 0px 0px; float: left;}
+.c_Left_Top{ width:100%;}
+.c_Left_Bottom_Left{ float:left; width:100%;}
+.c_Left_Bottom_Right{ float:left; width:68%; padding-left:2%; min-height:550px}
+
+.c_Middle{ float: left;}
+
+.c_Right{ width:206px; margin-top: 20px;}
+
+
+.c_Left_2{width:208px; padding-right:6px; }
+.c_Right_2{width:720px; padding:0px 0px 0px 0px;  }
+
+.c_Middle_2{ float:left; width:100%; min-height:1000px;}
+
+.footer{clear: both; width:100% ; min-width:940px; }
+.footer_content{ margin:0px auto; width:940px;height:64px; padding-top:15px;}
+.footer .t_1{padding-left:45px; font-size:9px; width:170px; padding-right:30px; line-height:15px; letter-spacing:-0.1em}
+/*nav------------------------------------------------------------------------------*/
+/* LEVEL ONE*/
+ul.dropdown                         { position: relative; z-index:1000; width:100%; height:34px; line-height:34px; }
+ul.dropdown li                      { float: left; zoom: 1; font-size:12px;  }
+ul.dropdown li:hover                { position: relative;  }
+
+ul.dropdown .first_li{padding-right:2px; font-size:13px; }
+ul.dropdown .first_li .first_a{ float:left;padding:0px 27px; cursor: pointer}
+ul.dropdown .first_li .first_a span{ float:left; line-height:34px; padding-left:15px;}
+ul.dropdown .hover{ position: relative; }
+ul.dropdown .hover_a{padding:0px 27px;}
+/* LEVEL TWO*/
+ul.dropdown ul 						{ width: 131px; visibility: hidden; position: absolute; top: 100%; left: 0;}
+ul.dropdown ul li 					{ font-weight: normal;  float: none; width:121px ;text-align:center;line-height:15px; padding:5px;}
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ width: 80%; padding:2px 0px; }
+ul.dropdown ul li a:hover			{ text-decoration:none} 
+
+/* LEVEL THREE*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+/*Nav_2------------------------------------------------------------------------------*/
+.Nav2{ clear: both; width: 100%; padding-bottom:100px; }
+.Nav2_bg{ padding:2px;}
+/*.Nav2 dt a{ color: #125fbb; text-decoration:none; cursor:pointer }
+.Nav2 dt a span{ float:left; width:8px; padding:3px 2px ;background:#5dcff9; color:#053269; line-height:6px;  font-size:10px;}
+.Nav2 dt a div{ float:left; padding-left:5px}
+*/
+.Nav2 dt{line-height: 15px;padding:0px 0px;  clear:both }
+.Nav2 dt a{text-decoration:none; cursor:pointer }
+.Nav2 dt a span{ float:left; width:5px; padding:2px 2px 2px 1px ; line-height:5px; font-family:\5B8B\4F53; font-size:10px; margin:2px 0px 0px 0px}
+
+
+.Nav2 .li_hover{  cursor:pointer;}
+
+.Nav2 .li2_1 .div_2{ padding:7px 0px 7px 15px;}
+.Nav2 .li2_2 .div_2{ padding:7px 0px 7px 32px;}
+
+.Nav2 dd { margin: 0px; padding: 0px; clear:both;}
+.Nav2 dd ul{ clear:both}
+.Nav2 dd ul li{ padding:5px 0px; clear:both }
+.Nav2 dd ul li .div_3{padding:0px 0px 0px 40px;}
+.Nav2 .li3{padding-left: 5px; }
+.Nav2 .li4{padding-left: 5px; }	
+/*other_comm------------------------------------------------------------------------------*/
+
+.weather_bar{ padding-right:20px; font-weight:bold }
+
+.line_1{clear:both; height:15px; line-height:15px; font-size:1px;}
+.line_3{clear:both; height:6px; line-height:6px; font-size:1px;}
+
+.position_bar{ line-height:35px; clear:both}
+
+.turn_page{height:30px; line-height:30px; padding:0px 20px; }
+.turn_page td{ padding:0px 5px;}
+.turn_page .td_1 a{ text-decoration:underline}
+
+.date_bar{ text-align:left; height:25px; line-height:25px; font-size:12px; font-style: italic; padding:0px 10px;}
+.date_bar span{ padding:0px 10px}
+.article_box{ padding:20px 50px;}
+.article_content{ padding:20px 0px; line-height:normal}
+
+.ip_1{ width:150px; height:17px; line-height:17px;}
+.ip_3{width:20px; height:15px; line-height:15px;}
+.ip_2{ height:18px; line-height:15px; cursor:pointer; width:40px;}
+
+.ico_1{ height:21px; line-height:21px;width:29px; border:none;cursor:pointer; font-weight:bold; padding:0px 0px 0px 0px;letter-spacing:5px;}
+
+
+.border_right_1{ border-left:1px #c2d0eb solid}
+/*title------------------------------------------------------------------------------*/
+.title_1 {height:32px; line-height:32px; clear:both; padding:0px 10px;}
+
+.title_1  span{ float:left;}
+.title_1  font{ float:left; width:18px; height:32px; padding:0px 0px 0px 10px;}
+
+.title_1_1 {height:30px; line-height:30px; clear:both;}
+
+.title_1_1  span{ float:left;  padding:0px 5px 0px 5px;}
+.title_1_1  span .span_1,.title_1  span .span_2{  font-size:12px;}
+.title_1_1  .div_2{}
+.title_1_1  .div_1{padding:2px 0px 0px 0px ;padding:1px 0px 0px 0px \9; position: relative;top:26px; top:-7px \9; z-index:0;  height:3px;width:100%; line-height:3px; font-size:1px;}
+
+.title_1_1  a{ float:right;font-weight:normal; padding-right:5px; font-size:12px;}
+.title_1_1  font{ font-size:8px; line-height:30px;}
+.title_1_1 .date_a:hover{ text-decoration:none}
+
+.title_2 { height:32px; line-height:32px; clear:both; padding-left:15px;}
+.title_2  span{ float:left; font-size:14px;  padding-left:10px;}
+.title_2  font{ font-size:12px;}
+.title_2  a{ float:right; font-weight:normal; padding-right:20px;}
+
+.title_4{ font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:20px;line-height:25px; padding:0px 20px;}
+/*list_box------------------------------------------------------------------------------*/
+.box_1_p{ padding-right:10px;}
+.box_1{width:234px;  overflow: hidden;}
+
+.box_1_left_shadow{ padding-right:8px;}
+.box_1_bottom_shadow{ height:10px; line-height:10px; font-size:1px; clear:both; width:232px;}
+.list_box_1{ width:100% }
+.list_box_1 .p_1{ padding:2px;}
+.list_box_1 .p_2{ padding:10px; height:402px; overflow: hidden;}
+
+.list_box_1 .pic_box_1{ width:197px; height:70px; padding:1px 0px 0px 0px}
+.list_box_1 .pic_box_1 img{ width:184px; height:58px;}
+.list_box_1 .text_box_1{ line-height:18px;}
+.list_box_1 .more_1{ height:28px; line-height:28px; text-align:right; padding:0px 10px;}
+.list_box_1 .date_1{ padding-left:10px; font-size:10px;}
+.list_box_1 .list_1{ min-height:380px; }
+.list_box_1 .list_1 li{padding:10px 10px; line-height:18px;}
+.text_box_2{overflow:hidden}
+
+.list_box_1 .date_2{ font-weight:bold; font-size:14px; text-align:right; line-height:15px;}
+
+.list_box_1 .list_2 li{ padding-bottom:10px;}
+.list_box_1 .list_2 li table tr td{ line-height:18px; vertical-align:top}
+.list_box_1 .list_2 .week_1{ font-size:10px; text-align:right;padding-right:3px; vertical-align:top}
+.list_box_1 .list_2 .date_3{ font-size:10px; text-align:right;padding-right:3px; vertical-align:top}
+
+.list_box_1 .list_2 .time_1{ font-size:10px;}
+.list_box_1 .list_2 .position_1{ font-size:10px;}
+.list_box_1 .list_2 .text_box_3{ overflow:hidden}
+
+.list_box_2_3{ width:93%; clear:both; padding:3%; min-height:800px; _height:800px;}
+.list_box_2_3 .pic_box_3_3{ width:29%; line-height:15px; padding:10px 2%;_padding:10px 1%;float:left}
+.list_box_2_3 .pic_box_3_3 div{ padding:0px 10px;}
+.list_box_2_3 .pic_box_3_3 img{ width:196px; height:149px;}
+.list_box_2_3 div img{ margin:0px 0px 20px 0px}
+.list_box_2_3 .line_2_3{ clear:both; height:15px; line-height:15px; width:100%; margin-bottom:25px;}
+
+
+.list_box_2{ width:98%; clear:both; padding:1%}
+.list_box_2 .pic_box_3{ width:29%; line-height:15px; padding:10px 2%;float:left}
+.list_box_2 .pic_box_3 div{ padding:0px 10px;}
+.list_box_2 div img{ margin:0px 0px 20px 0px}
+.list_box_2 .line_2{ clear:both; height:15px; line-height:15px; width:95%; margin-bottom:25px;}
+
+.list_box_2_2{ width:98%; clear:both; padding:0px 1%}
+.list_box_2_2 .date_box_1{ float:left; width:15%; text-align:center; margin:10px 0px 0px 0px }
+.list_box_2_2 .date_box_1 span{ font-size:14px; line-height:18px;}
+.list_box_2_2 .date_box_1 div{ font-size:20px; font-weight:bold; line-height:18px;}
+.list_box_2_2 .rsaquo{ text-align:right}
+
+.list_box_2_2 .text_box_1{ float:left; width:80%; padding-left:3%;}
+.list_box_2_2  ul li{ float:left; padding:5px 0px 10px 0px; width:100%}
+.list_box_2_2 .text_box_1 table tr td{ padding:10px 10px 10px 10px; line-height:15px;}
+
+
+
+.list_box_3{ padding:0px 0px 60px 0px; width:712px;overflow: hidden;}
+
+.list_box_4{ }
+.list_box_4 li{ padding:10px 20px;}
+.list_box_4 .pic_box_2{ padding-right:10px; vertical-align:top; width: 185px;}
+.list_box_4 .pic_box_2 img{width:240px;}
+
+.list_box_4 .pic_box_2_2{ padding-right:10px; vertical-align:top; width:35%}
+.list_box_4 .pic_box_2_2 img{}
+
+
+.list_box_4 h4{}
+.list_box_4 li table tr td{padding:0px 15px 20px 15px;}
+.list_box_4 .td_1{  line-height:20px; vertical-align: top; text-align:left; }
+.list_box_4 .more_2{  text-align:right; line-height:15px; font-size:10px; padding-right:10px;}
+
+
+
+
+.list_box_5{ padding:20px 20px; min-height:800px;_height:800px;}
+.list_box_5 li{ height:35px; line-height:35px; clear:both; padding:0px 10px 3px 10px}
+.list_box_5 li  span{ float:right;}
+.list_box_5 li  font{ font-size:10px;}
+.list_box_5 li a{ float:left;
+                  display:block;
+                  white-space:nowrap;
+                  overflow:hidden;
+                  -o-text-overflow: ellipsis; /* for Opera */
+                  text-overflow:ellipsis; /* for IE */
+                  width:85%;
+}
+.list_box_5 ul li a:after{content:"…";}/* for Firefox */
+
+
+
+.list_box_6{ width:100%;}
+.list_box_6 .p_1{ padding:0px;}
+
+
+.box_2{ width:206px; float:left; }
+.box_2_p{ padding:2px;}
+
+.box_2_left_shadow{ padding-right:6px;}
+.box_2_bottom_shadow{ height:10px; line-height:10px; font-size:1px; clear:both; width:206px;}
+
+.list_box_6 h4 span{}
+.list_box_6 .pic_box_4{text-align:center; padding:1px 10px 10px 1px; margin-bottom:10px;}
+.list_box_6 .pic_box_4 img{}
+.list_box_6 ul.list_3{ min-height:445px;}
+.list_box_6 ul.list_3 li{ padding:5px 10px; line-height:15px;}
+
+.box_3{ width:724px; padding-bottom:10px;}
+.box_3_left_shadow{ padding-right:8px;}
+.box_3_bottom_shadow{ width:610px; height:10px; line-height:10px; clear:both}
+
+.box_4{ width:208px;}
+.box_4_left_shadow{ padding-right:8px;}
+.box_4_bottom_shadow{ width:208px; height:10px; line-height:10px; clear:both}
+
+
+.box_5{ width:720px;}
+.box_5_left_shadow{ padding-right:8px;}
+.box_5_bottom_shadow{ width:720px; height:10px; line-height:10px; clear:both}
+
+.list_box_7{ padding:20px}
+.pic_box_5{ padding:1px;}
+.box_6{ padding-left:10px;}
+.box_6 ul li{ padding:0px 15px;}
+
+.box_7{ padding:10px 0px}
+/*s3------------------------------------------------------------------------------*/
+.s3{ width:194px; height:285px; overflow:hidden; }
+/*.s3 img{  width:73px; height:96px; }*/
+.s3 div{ width:184px; height:285px; padding:0px 5px; text-align:center }
+.s3 h4{ text-align:center}
+.photo_box_1{ text-align:center;width:194px;}
+/*s4------------------------------------------------------------------------------*/
+.nav3 {  width:191px; text-align:right; position: absolute; top: 156px ; z-index: 100;   height: 15px; line-height: 15px;}
+.nav3 a {padding:0px 8px; text-decoration: none }
+.nav3 a.activeSlide {  font-weight:bold;padding:0px 8px; }
+.nav3 a:focus { outline: none; }
+
+.s4{ width:192px; height:205px; overflow:hidden; }
+.s4 img{  width:190px; height:145px; }
+.s4 div{ width:192px; height:205px;}
+.p1{ height: 50px ; line-height: 16px; text-align: center; vertical-align: bottom; padding:15px 10px 0px 10px; }
+.p1 font{}
+
+/*banner_change*/
+.banner_box { position:relative; width:722px; height:327px; overflow:hidden; margin:0px auto; }
+.banner_pic {width:598px; height:322px; overflow:hidden;position:relative; left:90px; }
+.banner_pic ul { position: relative; top:0; left:0; height:322px; width:598px; overflow:hidden }
+.banner_pic ul li { float:left; width:598px;height:322px; }
+.banner a.btn_prev, .banner a.btn_next { display:block; width:22px; height:22px; overflow:hidden; margin-top:290px;text-indent:-9999px; outline:none; hide-focus:expression(this.hideFocus=true); z-index:100; }
+.banner a.btn_prev { float:left; margin-left:2px!important; margin-left:1px;position:relative; left:630px; }
+.banner a.btn_next {float:right; margin-right:2px!important;margin-right:1px; position:relative;right:30px; }
+.banner a.btn_prev:hover {}
+.banner a.btn_next:hover {}
+.banner_info {position:absolute; top:277px; left:130px; width:398px; height:35px; padding:10px; z-index:100; word-break:break-all; line-height:15px;  }
+.banner_info li{ display:none; }
+.banner_info li.current { display:block; }
+.banner_info li h4 {}
+.banner_info li h4 a {font-size:12px; font-weight:normal }
+span.pipe { padding:0 6px;}
+.banner_count { position:absolute; left:285px; top:150px; width:1px; height:1px; overflow:hidden; color:#FFF; font-family:Verdana; text-align:center; line-height:1px; }
+.banner_pages { width:120px; height:530px; overflow:hidden; position:absolute; left:0; top:0}
+.banner_pages ul {}
+.banner_pages li {height:66px; height:64px /9; padding-left:4px;}
+.banner_pages li span { display:block; width:100px; height:60px; overflow:hidden; text-indent:-9999px; cursor:pointer; }
+.banner_pages li span img { display:block; width:100px; height:60px;}
+.banner_pages li span:hover { }
+.banner_pages li.current span, .banner_pages li.current span:hover {}
+.banner_info_bg{ position:absolute; top:280px;left:116px; _left:119px; width:598px; height:55px; filter:alpha(opacity=80);
+                 -moz-opacity:0.8;
+                 -khtml-opacity: 0.8;
+                 opacity: 0.8;}
+/*banner_change*/
+
+.Nav2 .level1{font-weight: bold}
+.Nav2 .level2{ padding-left: 5px;}
+
+.teacherInfo p {margin: 0; padding: 3px;}
